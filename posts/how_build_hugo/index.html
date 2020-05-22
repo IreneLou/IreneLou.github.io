@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>怎麼在Windows環境安裝Hugo並且創建靜態網頁 ! - Ciao Ling&#39;s 部落格  U・x・U</title><meta name="Description" content=""><meta property="og:title" content="怎麼在Windows環境安裝Hugo並且創建靜態網頁 !" />
+<meta property="og:description" content="此篇主要介紹在Windows環境下安裝Hugo，並且用Hugo創建網站發布到Github，產生靜態網頁Github Pages。
+怎麼在Windows環境安裝Hugo Step.0 假設  會開啟windows的cmd
+(在windows我會安裝 Git Bash，Git Bash能夠使用Linux環境的指令來控制 Windows&rsquo; cmd) Windows 版本為 64-bit 你要使用的 Website 網址為 &lt;user_name&gt;.github.io 
+(因為接下來網頁會發布到Github，所以期待Website的url與你的Github帳號相關) 你將會使用 D:\Hugo\Sites 當作寫網頁文章的起點 (下一步驟會建立Hugo資料夾)  Step.1 建立Hugo資料夾 需要一個地方來存放你編寫所有hugo網頁的content
+ 打開 Windows cmd 創立一個資料夾 D:\Hugo 創立一個資料夾 D:\Hugo\bin 創立一個資料夾 D:\Hugo\Sites (存放網頁所有內容，之後很常使用!!)  Step.2 建立Hugo資料夾  在此網頁 Hugo Release下載目前最新的Hugo版本 &quot; hugo_0.71.0_Windows-64bit.zip &quot; 下載這包ZIP存在 D:\Hugo\bin 底下，並且解壓縮在此 解壓縮完會看到 hugo.exe 的執行檔 (如果 .exe的名字不是hugo.exe，需要你幫他改成 hugo.exe)
+另外，hugo.exe 必須放在 D:\Hugo\bin 此資料夾底下喔!!  Step.3 確認安裝完成 &amp; 添加環境變數  開啟cmd，輸入這行指令 D:\Hugo\bin\hugo version 並且按下 Enter，看到下面的訊息就表示安裝成功啦!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://IreneLou.github.io/posts/how_build_hugo/" />
+<meta property="article:published_time" content="2020-05-22T10:21:26+08:00" />
+<meta property="article:modified_time" content="2020-05-22T10:21:26+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="怎麼在Windows環境安裝Hugo並且創建靜態網頁 !"/>
+<meta name="twitter:description" content="此篇主要介紹在Windows環境下安裝Hugo，並且用Hugo創建網站發布到Github，產生靜態網頁Github Pages。
+怎麼在Windows環境安裝Hugo Step.0 假設  會開啟windows的cmd
+(在windows我會安裝 Git Bash，Git Bash能夠使用Linux環境的指令來控制 Windows&rsquo; cmd) Windows 版本為 64-bit 你要使用的 Website 網址為 &lt;user_name&gt;.github.io 
+(因為接下來網頁會發布到Github，所以期待Website的url與你的Github帳號相關) 你將會使用 D:\Hugo\Sites 當作寫網頁文章的起點 (下一步驟會建立Hugo資料夾)  Step.1 建立Hugo資料夾 需要一個地方來存放你編寫所有hugo網頁的content
+ 打開 Windows cmd 創立一個資料夾 D:\Hugo 創立一個資料夾 D:\Hugo\bin 創立一個資料夾 D:\Hugo\Sites (存放網頁所有內容，之後很常使用!!)  Step.2 建立Hugo資料夾  在此網頁 Hugo Release下載目前最新的Hugo版本 &quot; hugo_0.71.0_Windows-64bit.zip &quot; 下載這包ZIP存在 D:\Hugo\bin 底下，並且解壓縮在此 解壓縮完會看到 hugo.exe 的執行檔 (如果 .exe的名字不是hugo.exe，需要你幫他改成 hugo.exe)
+另外，hugo.exe 必須放在 D:\Hugo\bin 此資料夾底下喔!!  Step.3 確認安裝完成 &amp; 添加環境變數  開啟cmd，輸入這行指令 D:\Hugo\bin\hugo version 並且按下 Enter，看到下面的訊息就表示安裝成功啦!"/>
+<meta name="application-name" content="Ciao Ling&#39;s 部落格  U・x・U">
+<meta name="apple-mobile-web-app-title" content="Ciao Ling&#39;s 部落格  U・x・U"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://IreneLou.github.io/posts/how_build_hugo/" /><link rel="next" href="http://IreneLou.github.io/posts/set_hugo_themes/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "怎麼在Windows環境安裝Hugo並且創建靜態網頁 !",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/IreneLou.github.io\/posts\/how_build_hugo\/"
+        },"genre": "posts","keywords": "hugo","wordcount":  229 ,
+        "url": "http:\/\/IreneLou.github.io\/posts\/how_build_hugo\/","datePublished": "2020-05-22T10:21:26+08:00","dateModified": "2020-05-22T10:21:26+08:00","author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Ciao Ling&#39;s 部落格  U・x・U">Ciao Ling&#39;s 部落格  U・x・U</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ciao Ling&#39;s 部落格  U・x・U">Ciao Ling&#39;s 部落格  U・x・U</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">怎麼在Windows環境安裝Hugo並且創建靜態網頁 !</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/note/"><i class="far fa-folder fa-fw"></i>Note</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-22">2020-05-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;229 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#怎麼在windows環境安裝hugo-">怎麼在Windows環境安裝Hugo</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#建立個人網站吧-">建立個人網站吧!</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>此篇主要介紹在Windows環境下安裝Hugo，並且用Hugo創建網站發布到Github，產生靜態網頁Github Pages。</p>
+<h2 id="怎麼在windows環境安裝hugo-">怎麼在Windows環境安裝Hugo</h2>
+<h4 id="step0-假設-">Step.0 假設</h4>
+<ol>
+<li>會開啟windows的cmd<br>
+(在windows我會安裝 <a href="https://gitforwindows.org/" target="_blank" rel="noopener noreffer">Git Bash</a>，Git Bash能夠使用Linux環境的指令來控制 Windows&rsquo; cmd)</li>
+<li>Windows 版本為 64-bit</li>
+<li>你要使用的 Website 網址為 <code>&lt;user_name&gt;.github.io </code><br>
+(因為接下來網頁會發布到Github，所以期待Website的url與你的Github帳號相關)</li>
+<li>你將會使用 D:\Hugo\Sites 當作寫網頁文章的起點 (下一步驟會建立Hugo資料夾)</li>
+</ol>
+<h4 id="step1-建立hugo資料夾-">Step.1 建立Hugo資料夾</h4>
+<p>需要一個地方來存放你編寫所有hugo網頁的content</p>
+<ol>
+<li>打開 Windows cmd</li>
+<li>創立一個資料夾 <code>D:\Hugo</code></li>
+<li>創立一個資料夾 <code>D:\Hugo\bin</code></li>
+<li>創立一個資料夾 <code>D:\Hugo\Sites</code> (存放網頁所有內容，之後很常使用!!)</li>
+</ol>
+<h4 id="step2-建立hugo資料夾-">Step.2 建立Hugo資料夾</h4>
+<ol>
+<li>在此網頁 <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer">Hugo Release</a>下載目前最新的Hugo版本 &quot; hugo_0.71.0_Windows-64bit.zip &quot;</li>
+<li>下載這包ZIP存在 D:\Hugo\bin 底下，並且解壓縮在此</li>
+<li>解壓縮完會看到 hugo.exe 的執行檔 (如果 .exe的名字不是hugo.exe，需要你幫他改成 hugo.exe)<br>
+另外，hugo.exe 必須放在 D:\Hugo\bin 此資料夾底下喔!!</li>
+</ol>
+<h4 id="step3-確認安裝完成--添加環境變數-">Step.3 確認安裝完成 &amp; 添加環境變數</h4>
+<ol>
+<li>開啟cmd，輸入這行指令  <code>D:\Hugo\bin\hugo version</code> 並且按下 Enter，看到下面的訊息就表示安裝成功啦!</li>
+</ol>
+<pre><code>Hugo Static Site Generator v0.70.0-7F47B99E windows/amd64 BuildDate: 2020-05-06T11:17:50Z
+</code></pre><ol start="2">
+<li>將 <code>D:\Hugo\bin\</code> 添加進環境變數 Path 中，之後可以直接使用 hugo 下指令<br>
+(例如: 直接輸入 <code>hugo help</code> 就會看到上一點顯示的訊息)</li>
+</ol>
+<h2 id="建立個人網站吧-">建立個人網站吧!</h2>
+<p>首先要知道自己想建立什麼網站，我使用Github託管我的用戶網頁，根據Github Pages規則，網站名稱要為 <code>&lt;user_name&gt;.github.io</code></p>
+<h4 id="step1-產生網站-">Step.1 產生網站</h4>
+<pre><code>cd D:\Hugo\Sites
+hugo new site &lt;user_name&gt;.github.io
+</code></pre><p>接下來在Sites目錄底下會看到 &lt;user_name&gt;.github.io 資料夾，進入資料夾可以看到以下結構</p>
+<pre><code>|-- archetypes
+|-- content
+|-- data
+|-- layouts
+|-- public
+|-- static
+|-- themes
+|-- config.toml
+</code></pre><p>待會使用到的資料夾，先簡單介紹一下!!</p>
+<p>content裡面放置網站的文章，static存放靜態資料如圖片、CSS，themes存放網站的主題架構，config.toml為網站的配置屬性文件(網站整體呈現靠它!!)</p>
+<h4 id="step2-建立第一篇文章-">Step.2 建立第一篇文章!</h4>
+<p>我們先進到&lt;user_name&gt;.github.io資料夾底下，新增一篇文章</p>
+<pre><code>cd &lt;user_name&gt;.github.io
+hugo new posts/my_fist_article.md
+</code></pre><p>Hugo會在<code>content</code>底下新增<code>posts</code>資料夾，並創建 <code>my_fist_article.md</code>文件，打開<code>my_fist_article.md</code>會看到裡面有一些內容</p>
+<pre><code>---
+title: &quot;my_fist_article&quot;
+date: 2020-05-22T10:21:26+08:00
+draft: true
+---
+</code></pre><p>這段包起來的區域是整個網頁Toml配置訊息，叫做 front matter，其中 <code>draft</code>為true時，網站不會發布這篇文章，除了這三項還可以自己添加屬性，以下就是我調整過後的front matter</p>
+<pre><code>---
+title: &quot;my_fist_article&quot;
+date: 2020-05-22T10:21:26+08:00
+draft: false
+tags: ['hugo']
+categories: ['note']
+---
+</code></pre><p>然後再把想寫的內容添加在 <code>---</code> front matter區域底下，一篇文章就完成啦!!</p>
+<h4 id="step3-添加主題-">Step.3 添加主題</h4>
+<p><a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer">Hugo主題</a>在這裡可以找到很多模板，我自己是選擇 LoveIt，進入themes目錄然後下載主題</p>
+<pre><code>cd themes
+git clone https://github.com/dillonzq/LoveIt.git
+</code></pre><p>然後修改 &lt;user_name&gt;.github.io 資料夾底下的config.toml，讓網頁架構符合你的主題，而自己想要在網站添加什麼屬性也是在config.toml做調整<br>
+(我使用的LoveIt必須符合他的config.toml格式，所以自己選擇主題時如果沒辦法執行網頁，檢查一下config.toml有沒有格式問題)</p>
+<pre><code>baseURL = &quot;http://IreneLou.github.io/&quot;
+defaultContentLanguage = &quot;en&quot;
+languageCode = &quot;en&quot;
+title = &quot;Ciao Ling's 部落格  U・x・U&quot;
+</code></pre><h4 id="step4-本地測試-">Step.4 本地測試</h4>
+<p>現在到&lt;user_name&gt;.github.io目錄來啟動網頁</p>
+<pre><code>cd &lt;user_name&gt;.github.io
+hugo server
+</code></pre><p>如果執行成功，可以到 <a href="http://localhost:1313/" target="_blank" rel="noopener noreffer">http://localhost:1313/</a> 看網頁了!!</p>
+<h4 id="step5-發布到-github-">Step.5 發布到 Github</h4>
+<p>如果本地測試沒有問題，就可以發布到Github上，讓Github控管你的網頁</p>
+<p>首先，建立static版網頁，指令很簡單</p>
+<pre><code>hugo -D
+</code></pre><p>編譯後的output會在<code>public</code>目錄中，現在到browser Github創建Repository，名字為<code>&lt;user_name&gt;.github.io</code>，創完後，回到本地端進入<code>public</code>目錄</p>
+<pre><code>cd public
+git init
+git add .
+git commit -m &quot;Initial commit.&quot;
+git remote add origin git@github.com:IreneLou/IreneLou.github.io.git
+git push -u origin master
+</code></pre><p>稍等片刻，執行<code>&lt;user_name&gt;.github.io</code>網址，你就可以看到網頁了!!!</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-05-22</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">hugo</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/posts/set_hugo_themes/" class="next" rel="next" title="設定 Hugo themes &amp; 新增文章">設定 Hugo themes &amp; 新增文章<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.70.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.9"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -1,16 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
-        <link>http://example.org/</link>
-        <description>My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 May 2020 02:23:00 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <title>Ciao Ling&#39;s 部落格  U・x・U</title>
+        <link>http://IreneLou.github.io/</link>
+        <description>Ciao Ling&#39;s 部落格  U・x・U</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 May 2020 10:36:01 &#43;0800</lastBuildDate>
+            <atom:link href="http://IreneLou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Test</title>
-    <link>http://example.org/posts/test/</link>
-    <pubDate>Fri, 22 May 2020 02:23:00 &#43;0800</pubDate>
+    <title>設定 Hugo themes &amp; 新增文章</title>
+    <link>http://IreneLou.github.io/posts/set_hugo_themes/</link>
+    <pubDate>Fri, 22 May 2020 10:36:01 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/test/</guid>
-    <description><![CDATA[HI~~]]></description>
+    <guid>http://IreneLou.github.io/posts/set_hugo_themes/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>怎麼在Windows環境安裝Hugo並且創建靜態網頁 !</title>
+    <link>http://IreneLou.github.io/posts/how_build_hugo/</link>
+    <pubDate>Fri, 22 May 2020 10:21:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://IreneLou.github.io/posts/how_build_hugo/</guid>
+    <description><![CDATA[此篇主要介紹在Windows環境下安裝Hugo，並且用Hugo創建網站發布到Github，產生靜態網頁Github Pages。
+怎麼在Windows環境安裝Hugo Step.0 假設  會開啟windows的cmd
+(在windows我會安裝 Git Bash，Git Bash能夠使用Linux環境的指令來控制 Windows&rsquo; cmd) Windows 版本為 64-bit 你要使用的 Website 網址為 &lt;user_name&gt;.github.io 
+(因為接下來網頁會發布到Github，所以期待Website的url與你的Github帳號相關) 你將會使用 D:\Hugo\Sites 當作寫網頁文章的起點 (下一步驟會建立Hugo資料夾)  Step.1 建立Hugo資料夾 需要一個地方來存放你編寫所有hugo網頁的content
+ 打開 Windows cmd 創立一個資料夾 D:\Hugo 創立一個資料夾 D:\Hugo\bin 創立一個資料夾 D:\Hugo\Sites (存放網頁所有內容，之後很常使用!!)  Step.2 建立Hugo資料夾  在此網頁 Hugo Release下載目前最新的Hugo版本 &quot; hugo_0.71.0_Windows-64bit.zip &quot; 下載這包ZIP存在 D:\Hugo\bin 底下，並且解壓縮在此 解壓縮完會看到 hugo.exe 的執行檔 (如果 .exe的名字不是hugo.exe，需要你幫他改成 hugo.exe)
+另外，hugo.exe 必須放在 D:\Hugo\bin 此資料夾底下喔!!  Step.3 確認安裝完成 &amp; 添加環境變數  開啟cmd，輸入這行指令 D:\Hugo\bin\hugo version 並且按下 Enter，看到下面的訊息就表示安裝成功啦!]]></description>
 </item></channel>
 </rss>
